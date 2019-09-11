@@ -1,0 +1,106 @@
+createdAt: "2019-08-13T02:26:20.997Z"
+updatedAt: "2019-08-16T02:55:00.862Z"
+type: "MARKDOWN_NOTE"
+folder: "04bd29c70ada59ba7be3"
+title: "Namespace"
+tags: [
+  "K8s常用yaml"
+]
+content: '''
+  - ### Namespace
+  
+  
+      apiVersion: v1
+      kind: Namespace
+      metadata:
+         name: dev
+         labels:
+           name: dev
+  
+  ---
+  
+  - ### ConfigMap
+    
+    
+      kind: ConfigMap
+      apiVersion: v1
+      metadata:
+        name: iov-sjjh-servicenode-cache
+        namespace: iov-sjjh2
+      data:
+        application.yaml: |-
+          server:
+            tomcat:
+              basedir: /data/apps/temp
+              
+  ---
+  
+  - ### Deployment
+  
+  
+  
+      apiVersion: apps/v1beta1
+      kind: Deployment
+      metadata:
+        name: iov-sjjh-gateway-portal
+        namespace: iov-sjjh2
+      spec:
+        replicas: 1
+        template:
+          metadata:
+            labels:
+              name: iov-sjjh-gateway-portal
+          spec:
+            serviceAccountName: iov-sjjh-admin
+            containers:     
+            - name: iov-sjjh-gateway-portal
+              image: hub.i139.cn/iov-sjjh2/iov-sjjh-gateway-portal:1.1.7.0
+              imagePullPolicy: Always
+              ports:
+              - containerPort: 8080
+              - containerPort: 8081       
+              resources:
+                limits:
+                  memory: 1Gi
+                  cpu: 2
+                requests:
+                  memory: 128Mi
+                  cpu: 200m
+              env:
+              - name: JAVA_OPTS
+                value: -Xmx1G -Xms128M -Xss1024k -Duser.timezone=Asia/Shanghai
+              - name: APP_OPTS
+                value: "--server.port=8080 --management.server.port=8081 
+                        "
+              volumeMounts:
+              - name: timezone
+                mountPath: /etc/localtime
+                readOnly: true
+            volumes:
+            - name: timezone
+              hostPath:
+                path: /etc/localtime
+  ---              
+                
+  - ### Service
+  
+  
+      apiVersion: v1
+      kind: Service
+      metadata:
+        name: iov-sjjh2-redis
+        labels:
+          name: iov-sjjh2-redis
+      spec:
+        type: NodePort
+        ports:
+        - port: 6379
+          nodePort: 30326
+        selector:
+          name: iov-sjjh2-redis
+  
+              
+'''
+linesHighlighted: []
+isStarred: false
+isTrashed: false

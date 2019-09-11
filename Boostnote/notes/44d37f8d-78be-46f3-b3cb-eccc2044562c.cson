@@ -1,0 +1,20 @@
+createdAt: "2019-08-16T02:54:27.468Z"
+updatedAt: "2019-08-16T03:17:17.877Z"
+type: "MARKDOWN_NOTE"
+folder: "131419034e2f5b375519"
+title: "系统设计套路"
+tags: [
+  "阿里毕玄：系统架构师如何做好系统设计"
+]
+content: '''
+  - ### 系统设计套路
+  ---
+  - #### 系统设计的目的
+  - #### 系统设计的目标
+  - #### 围绕目标的核心设计
+  - #### 围绕核心设计行程的设计原则
+  - #### 各子系统/模块的详细设计
+'''
+linesHighlighted: []
+isStarred: false
+isTrashed: false

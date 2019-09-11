@@ -1,0 +1,41 @@
+createdAt: "2019-08-13T01:53:21.764Z"
+updatedAt: "2019-08-13T06:19:48.035Z"
+type: "MARKDOWN_NOTE"
+folder: "1df4dfe4cbc6ab65277e"
+title: "交科-昌平K8s集群"
+tags: [
+  "k8s_集群环境"
+]
+content: '''
+  - ## 交科-昌平K8s集群
+  
+  ### 地址：https://192.168.16.41:30001
+  
+  ### 令牌：
+      eyJhbGciOiJSUzI1NiIsImtpZCI6IiJ9.eyJpc3MiOiJrdWJlcm5ldGVzL3NlcnZpY2VhY2NvdW50Iiwia3ViZXJuZXRlcy5pby9zZXJ2aWNlYWNjb3VudC9uYW1lc3BhY2UiOiJrdWJlLXN5c3RlbSIsImt1YmVybmV0ZXMuaW8vc2VydmljZWFjY291bnQvc2VjcmV0Lm5hbWUiOiJhZG1pbi10b2tlbi04cXBjdyIsImt1YmVybmV0ZXMuaW8vc2VydmljZWFjY291bnQvc2VydmljZS1hY2NvdW50Lm5hbWUiOiJhZG1pbiIsImt1YmVybmV0ZXMuaW8vc2VydmljZWFjY291bnQvc2VydmljZS1hY2NvdW50LnVpZCI6IjU0Yjg2N2I4LTRhZWItMTFlOS1hZGFiLTAwNTA1NmI4ZTI4NyIsInN1YiI6InN5c3RlbTpzZXJ2aWNlYWNjb3VudDprdWJlLXN5c3RlbTphZG1pbiJ9.aFoeMlJiEv6kASzaQomJUIYGN8dg_jWoJAD09IFYh7tPXzjhAOlN7UunJEnLU3YlXOKUrBCNUTkNgKPc8DMiQ-8UCYx5IRTGILHuyGM1KBxuo3DYNiNcsIfFQ9xU22XT571OJosoWWsxcB7We-BuYi6vUkUt2DVMCqEqCakkgQZv7aE8qNE2zheuawKQ5sQ4r4GNeUKCCbZRq27KGcv9vC0jvZo59FeuAs068EM0EengLjf8t2oDoRqLSr_HGwQTuCZo3ZXSvFrNd0Ozh0P128cjIpnPHtWgvQRPCz9IfSdjqiDGy45wQW5eM1i4K_6rREGDpPPENrZuWQiWLGTKNA
+  
+  ---
+  
+  - ## AspireCloud K8s集群    
+  
+  ### 地址： https://10.8.17.119:30001
+  
+  ### 令牌：
+      eyJhbGciOiJSUzI1NiIsImtpZCI6IiJ9.eyJpc3MiOiJrdWJlcm5ldGVzL3NlcnZpY2VhY2NvdW50Iiwia3ViZXJuZXRlcy5pby9zZXJ2aWNlYWNjb3VudC9uYW1lc3BhY2UiOiJpb3YtZmxvdyIsImt1YmVybmV0ZXMuaW8vc2VydmljZWFjY291bnQvc2VjcmV0Lm5hbWUiOiJpb3YtZmxvdy1hZG1pbi1hY2NvdW50LXRva2VuLWNqcXJmIiwia3ViZXJuZXRlcy5pby9zZXJ2aWNlYWNjb3VudC9zZXJ2aWNlLWFjY291bnQubmFtZSI6Imlvdi1mbG93LWFkbWluLWFjY291bnQiLCJrdWJlcm5ldGVzLmlvL3NlcnZpY2VhY2NvdW50L3NlcnZpY2UtYWNjb3VudC51aWQiOiIyZjY4YWNlNi01NDJjLTExZTktOTU0OS0wMDUwNTZiNGIyMDYiLCJzdWIiOiJzeXN0ZW06c2VydmljZWFjY291bnQ6aW92LWZsb3c6aW92LWZsb3ctYWRtaW4tYWNjb3VudCJ9.g4h36rJElKYy2dkz_7RYVZUAKdtJUAHY6onVv-z9UEdso3CLKya5UGUBJS-jTrGVU8QBXOSe1D1_LOqtkqQ87L4YPVhIoJi-SmI_YnMW-Nbv9Pyg5dpeP10Dt8x8JNQAZcu2BQ7G-nGnm-igD76BjA30TDLkGJHXX3e-tClf0-F0wQAxuOXDY8h6aR6bUvAxdDh9nlhpOpaAK5-w6OcpEraydoghvOl6xX9da_QKg-Fzaw56ie4_cSTvzoBs8W8ImOE8P6YEDHujaS8CeZ1mPI_DI3SbJgPtZ-pKHbOX9FZPwWmA-igNcBfrvSjSbCamHftJuaXI1dXbLq1mYUdy_Q
+  
+  ---
+  
+  - ## 亦庄 K8s 集群
+  
+  ### 地址： https://192.168.63.68:30001
+  
+  ### 令牌：
+  
+      eyJhbGciOiJSUzI1NiIsImtpZCI6IiJ9.eyJpc3MiOiJrdWJlcm5ldGVzL3NlcnZpY2VhY2NvdW50Iiwia3ViZXJuZXRlcy5pby9zZXJ2aWNlYWNjb3VudC9uYW1lc3BhY2UiOiJrdWJlLXN5c3RlbSIsImt1YmVybmV0ZXMuaW8vc2VydmljZWFjY291bnQvc2VjcmV0Lm5hbWUiOiJhZG1pbi10b2tlbi02c2NydyIsImt1YmVybmV0ZXMuaW8vc2VydmljZWFjY291bnQvc2VydmljZS1hY2NvdW50Lm5hbWUiOiJhZG1pbiIsImt1YmVybmV0ZXMuaW8vc2VydmljZWFjY291bnQvc2VydmljZS1hY2NvdW50LnVpZCI6IjMyNjlkZDIxLWIxYTAtMTFlOS04OWYxLTgwMTg0NGUzNTZlMCIsInN1YiI6InN5c3RlbTpzZXJ2aWNlYWNjb3VudDprdWJlLXN5c3RlbTphZG1pbiJ9.VJyGvUwu_tyVULhxQE13wst7gT3wru0Y0-ok8hxtiHk8oLKxxHqR2uUC0t0VbICQx2J3WWdOAyP0xvnJNYLVe-6l_0H5vWLpA_FyL7nGgWbf2yJRylO6SvUhCHx2GwCeFtuQ0vTWhyobs8mp3jns1McOXYS_iJrRtvKtwH-60ErsZr7J5_qLuXQIeXCeXYOWT3SCaAX_kg2AK-_5vUdNnXg5E6WDzk8Ks-LMnB0N-xjQY3YE570s2nEVzKptbdHNHq9CyM4u5xiKO1E9X3U8kvEDo8cDcjtvjmb6om76R0z9JuZHZvwR0rYOIwxN-G24E25t5szWTEVbwzDWwqgwsw
+  
+  
+  ### 监控： [Spring Boot Admin](http://aspirecloud.pbd.i139.cn/iov-sjjh2/spba#/wallboard)
+'''
+linesHighlighted: []
+isStarred: false
+isTrashed: false

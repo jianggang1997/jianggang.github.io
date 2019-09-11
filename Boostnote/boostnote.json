@@ -1,0 +1,30 @@
+{
+  "folders": [
+    {
+      "key": "4865ff174464aea2094f",
+      "color": "#FF8E00",
+      "name": "Spring Cloud"
+    },
+    {
+      "key": "1df4dfe4cbc6ab65277e",
+      "color": "#30D5C8",
+      "name": "Aspire notes"
+    },
+    {
+      "key": "04bd29c70ada59ba7be3",
+      "color": "#FF8E00",
+      "name": "Kubernetes"
+    },
+    {
+      "key": "9cdb6558d9baed505bc9",
+      "color": "#30D5C8",
+      "name": "从Paxos到ZooKeeper分布式一致性原理及实践"
+    },
+    {
+      "key": "131419034e2f5b375519",
+      "color": "#B013A4",
+      "name": "wechat official accounts"
+    }
+  ],
+  "version": "1.0"
+}
